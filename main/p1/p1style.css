@@ -1,0 +1,307 @@
+* {
+  list-style: none;
+  text-decoration: none;
+  border-collapse: none;
+  margin: 0px;
+  padding: 0px;
+  color: #000;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.intro {
+  background-image:url("image/image1.jpg"); /* 영단어가 흩뿌려저 있는 색채감 있는 사진*/
+  width: 100%;
+  /* max-width:  */
+  height: 718px;
+}
+
+.header {
+  display: flex;
+  width: 1280px;
+  margin: auto;
+
+  height: 86px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+  line-height: 86px;
+  width: calc(1280px - 300px);
+}
+
+.navigation > li {
+  margin-left: 86px;
+}
+
+.navigation > li > a {
+  color: white;
+}
+
+.SearchArea {
+  background-color: rgba(0,0,0,0.3);
+  width: 300px;
+  height: 40px;
+  /* background-color: green; */
+  border-radius: 5px;
+  margin-top: 24px;
+  /* align-items: center; 추가 */
+}
+
+.SearchArea > form > input {
+  border: none;
+  /* background-color: rgba(0,0,0,0.3); */
+  width:250px;
+  height: 40px;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+
+.SearchArea > form > span {
+  width: 50px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 5.5px;
+  /* margin-left: 10px; */
+
+}
+
+.intro_text {
+  width: 100%;
+  margin: 231px auto 231px auto; /*margin 순서 상, 우, 하, 좌,*/
+  text-align: center;
+}
+
+.intro_text > h1 {
+  font-size: 57px;
+}
+
+/* .SearchArea > form > span > img { */
+  /* margin-top: -3px; */
+  /* display: inline-block;
+  margin-left: 10px;
+  width: 30px;
+  height: 30px; */
+  /* display: flex; */
+  /* align-items: center;
+   */
+
+   .fs18 {
+    font-size: 18px;
+   }
+
+   .fs20 {
+    font-size: 20px;
+    font-weight: lighter;
+   }
+
+   .fs30 {
+    font-size: 30px;
+    font-weight: bold;
+   }
+
+   .fs20b {
+    font-size: 20px;
+    font-weight: bold;
+   }
+
+   .amount {
+    display: flex;
+    width: 1280px;
+    background-color: antiquewhite;
+    margin: auto;
+    position: relative;
+    top: -66px;
+    box-shadow: 0px 10px 0px rgba(0,0,0,0.09);
+   }
+
+   .amount > li {
+    flex: 1;
+    height: 132px;
+    /* background-color: lightblue; */
+   }
+
+   .amount > li > div {
+    text-align: center;
+    /* background-color: green; */
+    height: 57px;
+    margin-top: 37px;
+  
+   }
+
+   .amount > li:not(:last-child) > div {
+    border-right: 1px solid gray;
+   }
+
+   /* main text */
+   .main_text {
+    width: 100%;
+    height: 601px;
+    background: #f1f2f3;
+    margin-top: -132px;
+   }
+
+   .main_text > h1 {
+    padding-top: 116px;
+    text-align: center;
+    font-size: 50px;
+   }
+
+   .main_text > .fs20 {
+    text-align: center;
+    font-weight:normal
+   }
+
+
+
+/* main text2 */
+
+.main_text2 {
+  
+  width: 100%;
+  height: 659px;
+ }
+
+   .main_text2 > h1 {
+    padding-top: 116px;
+    text-align: center;
+    font-size: 50px;
+   }
+
+   .main_text2 > .fs20 {
+    text-align: center;
+    font-weight:50px;
+   }
+
+   .AppDownload {
+    width: 1280px;
+    display: flex;
+    margin:auto;
+    margin-top: 49px;
+    height: 427px;
+    /* background-color: blue; */
+   }
+ 
+   .AppDownload > .AppDownloadButton {
+    padding: 20px;
+   }
+
+   .AppDownload > .AppDownloadButton > h2 {
+    margin-bottom: 27px;
+   }
+
+   .AppDownloadButtonStyle {
+    position: relative;
+    border: none;
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 15px;
+    font-family: "paybooc-Light", sans-serif;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.25s;
+    margin-top: 20px;
+    cursor: pointer;
+   }
+
+   .AppDownloadButton {
+    margin-left: 60px;
+   }
+
+.AppDownloadButtons {
+  margin-top: -30px;
+}
+
+
+   /* icons */
+   .icons {
+
+    margin: auto;
+    display: flex;
+    width: 1280px;
+    /* background-color: orange; */
+    height: 302px;
+   }
+
+   .icons > li {
+    margin-top: 40px;
+    flex: 1;
+    background-color: white;
+    height: 302px;
+    text-align: center;
+   }
+.icons > li > .icon_img {
+    margin-top: 36px;
+}
+   .icons > li:not(:last-child) {
+    margin-right: 20px;
+   }
+
+.MoreButton {
+  width: 100px;
+  height: 30px;
+  background-color: lightblue;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 12px;
+  margin: auto;
+  line-height: 30px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+/* main_text 3 */
+.main_text3 {
+  margin-top: 35px;
+  width: 100%;
+  height: 418px;
+  background-image: url(image/contact.png);
+  margin-top: 100px;
+}
+
+.main_text3 > ul {
+  display: flex;
+  padding-top: 138px;
+}
+
+.main_text3 > ul > li {
+  flex: 1;
+  text-align: center;
+  
+}
+
+.main_text3 > ul > li > div > h1,
+.main_text3 > ul > li > div {
+  color: #fff;
+  /* text-align: center; */
+}
+
+.MoreButton2 {
+  width: 220px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+margin: 12px auto;
+border: 2px solid white;
+cursor: pointer;
+}
+footer {
+  display: flex;
+  background-color: #2e2e2e;
+  padding: 30px;
+}
+footer > div:first-child {
+  flex: 3;
+  color: #fff;
+  text-align: center;
+/* background-color: red; */
+}
+
+footer > div:last-child {
+  flex: 9;
+  color: #fff;
+  /* text-align: center; */
+/* background-color: purple; */
+}
